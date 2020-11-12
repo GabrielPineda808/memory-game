@@ -3,8 +3,8 @@ import "./style.css";
 
 const Styles ={
   card: {
-      width: "200px",
-      margin: "20px"
+      
+      margin: "10px"
   }
 }
 
