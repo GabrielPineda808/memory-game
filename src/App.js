@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import Footer from "./components/Footer";
 import Jumbo from "./components/Jumbo";
+import Game from "./components/Memory"
 
 class App extends Component {
   // Setting this.state.friends to the friends json array
@@ -26,6 +26,8 @@ class App extends Component {
         
         <Jumbo />
         
+        <Game />
+
         <Footer />
         
       </Wrapper>

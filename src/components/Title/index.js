@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 
-
 function Title(props) {
   return (
     <div>
@@ -13,7 +12,9 @@ function Title(props) {
           <h2 ><strong>Click an image to begin!</strong></h2>
         </div>
         <div className="col-md-4">
-          <h2><strong>Score: 0 | Top Score: 0</strong></h2>
+          <h2><strong>Score: <span>{props.score}</span>
+            |
+            Top Score: <span >{props.topScore}</span></strong></h2>
         </div>
       </div>
     </div>

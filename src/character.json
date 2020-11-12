@@ -1,22 +1,50 @@
 [
     {
         "id": 1,
-        "image": "../public/images/bens.jpeg"
+        "image": "https://www.linkpicture.com/q/benson.jpg"
     },
     {
         "id":2 ,
-        "image": "../public/images/mordecai.jpeg"
+        "image": "https://www.linkpicture.com/q/mordecai.png"
     },
     {
         "id": 3,
-        "image": "../public/images/opps.jpeg"
+        "image": "https://linkpicture.com/q/pops.png"
     },
     {
         "id": 4,
-        "image": "../public/images/rigby.jpeg"
+        "image": "https://www.linkpicture.com/q/rigby.jpg"
     },
     {
         "id": 5,
-        "image": "../public/images/skips.jpeg"
+        "image": "https://www.linkpicture.com/q/skips.jpg"
+    },
+    {
+        "id": 6,
+        "image": "https://www.linkpicture.com/q/sheep.jpg"
+    },
+    {
+        "id": 7,
+        "image": "https://linkpicture.com/q/riggirl_1.jpg"
+    },
+    {
+        "id": 8,
+        "image": "https://www.linkpicture.com/q/ded_1.jpg"
+    },
+    {
+        "id": 9,
+        "image": "https://www.linkpicture.com/q/mman_1.jpg"
+    },
+    {
+        "id": 10,
+        "image": "https://www.linkpicture.com/q/mgirl_1.jpg"
+    },
+    {
+        "id": 11,
+        "image": "https://www.linkpicture.com/q/cloud_1.png"
+    },
+    {
+        "id": 12,
+        "image": "https://www.linkpicture.com/q/marg.png"
     }
 ]
