@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card/index";
 import image from "../character.json";
+import Score from './Score'
 
 class Game extends React.Component {
   state = {
@@ -15,7 +16,7 @@ class Game extends React.Component {
           this.setState({
               clicks: [...this.state.clicks, image],
               score: this.state.score + 1,
-              topScore: this.state.score
+              topScore: this.state.topScore
           })
       } else {
             this.setState({score: 0})
@@ -29,7 +30,7 @@ class Game extends React.Component {
       cImage: image.sort(randomImg => {
           const random = Math.random()
         if (random > .1) {
-          return 1;
+          return 4;
         }
         if (random < .1) {
           return -1;
@@ -53,7 +54,6 @@ class Game extends React.Component {
   {
     this.setState({ image });
   }
-  //need renderer FOR NEW component states
   render() {
       const Styles = {
           space: {
@@ -62,6 +62,7 @@ class Game extends React.Component {
       }
     return (
     <div>
+        <Score score={this.state.score} topScore={this.state.topScore} />
         <div className="row" style={Styles.space}>
           {image.map(data => (
             <Card key={data.id}id={data.id} image={data.image} random={this.random} counter={this.counter} topScore={this.topScore}/>
