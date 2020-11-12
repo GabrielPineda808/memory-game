@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "image": "../public/images/bens.jpeg"
+    },
+    {
+        "id":2 ,
+        "image": "../public/images/mordecai.jpeg"
+    },
+    {
+        "id": 3,
+        "image": "../public/images/opps.jpeg"
+    },
+    {
+        "id": 4,
+        "image": "../public/images/rigby.jpeg"
+    },
+    {
+        "id": 5,
+        "image": "../public/images/skips.jpeg"
+    }
+]
