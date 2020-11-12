@@ -10,7 +10,7 @@ const Styles ={
 
 function Card(props) {
   return (
-    <div className="col-3">
+    <div className="col-md-3">
         <div className="">
          <img src={props.image} style={Styles.card}onClick={ function() {props.random(); props.counter(props.id); props.topScore();}}/>
         </div>
